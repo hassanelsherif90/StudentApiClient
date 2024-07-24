@@ -29,7 +29,8 @@ namespace StudentApiClient
             var newStudent = new Student { Name = "Mazen Abdullah", Age = 20, Grade = 85 };
             await AddStudent(newStudent); // Example: Add a new student
 
-            DeleteStudent(1);
+            //DeleteStudent(1);
+            UpdateStudent(2, newStudent);
            
             await GetAllStudents();
 
